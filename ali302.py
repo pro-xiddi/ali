@@ -438,7 +438,7 @@ class Main:
 		if Ali in ["2", "02"]:
 			Public()
 		if Ali in ["3", "03"]:
-			os.system("python Dump.py")
+	           os.system("python Dump.py")
 		if Ali in ["4", "04"]:
 			self.old()
 		if Ali in ["5", "05"]:
@@ -1341,3 +1341,4 @@ def Subscraption():
 		os.system('am start https://wa.me/+923450787376?text=' + tks)
 		Subscraption()        
 Subscraption()
+
